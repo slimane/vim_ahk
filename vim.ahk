@@ -2,13 +2,12 @@
 GroupAdd VimGroup, ahk_class Notepad
 GroupAdd VimGroup, ahk_class WordPadClass
 GroupAdd VimGroup, ahk_class TTeraPadMainForm
-GroupAdd VimGroup, ahk_class CabinetWClass ; Exploler
-GroupAdd VimGroup, 作成 ;Thunderbird, 日本語
-GroupAdd VimGroup, Write: ;Thuderbird, English
-GroupAdd VimGroup, ahk_class PP12FrameClass ; PowerPoint
-GroupAdd VimGroup, ahk_class OpusApp ; Word
-GroupAdd VimGroup, ahk_class ENMainFrame ; Evernote
-
+GroupAdd VimGroup, ahk_class CabinetWClass    ; Exploler
+GroupAdd VimGroup, 作成                       ;Thunderbird, 日本語
+GroupAdd VimGroup, Write:                     ;Thuderbird, English
+GroupAdd VimGroup, ahk_class PP12FrameClass   ; PowerPoint
+GroupAdd VimGroup, ahk_class OpusApp          ; Word
+GroupAdd VimGroup, ahk_class AcrobatSDIWindow ; Acrobat Reader X
 vim_verbose=2
 
 VimMode=Insert
